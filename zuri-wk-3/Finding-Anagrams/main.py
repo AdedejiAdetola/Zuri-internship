@@ -16,6 +16,6 @@ def find_anagrams(word, anagram):
     return True
 
 
-print(find_anagrams("hello", "check"))
+#print(find_anagrams("hello", "check"))
 
-print(find_anagrams("below", "elbow"))
+#print(find_anagrams("below", "elbow"))

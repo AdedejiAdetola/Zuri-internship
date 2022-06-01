@@ -8,8 +8,6 @@ def read_file_content(filename):
     # [assignment] Add your code here
     with open(filename) as f:
         contents = f.read()
-        
-    
     return contents
 
 

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-boxes{
+    width: max-content;
+    border: 2px solid black;    
+}
+.chess-row, .chess-row-2{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+}
+.grid-box, .grid-box-2{
+    height: 100px;
+}
+
+.grid-box:nth-child(even){
+    background-color: black;
+}
+
+.grid-box:nth-child(odd){
+    background-color: white;
+}
+
+.grid-box-2:nth-child(odd) {
+    background-color: black;
+}
+
+.grid-box-2:nth-child(even){
+    background-color: white;
+}
+
